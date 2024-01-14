@@ -2574,7 +2574,7 @@
           (reference "D19") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D16") (unit 1)
         )
@@ -2605,7 +2605,7 @@
           (reference "JP7") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP6") (unit 1)
         )
@@ -2631,7 +2631,7 @@
     (pin "1" (uuid 90a87261-c540-40a6-96f0-4466160f26b8))
     (pin "2" (uuid 1dc45286-4b81-4b07-bc64-c6dbe46dfbcd))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW12") (unit 1)
         )
@@ -2659,7 +2659,7 @@
     (pin "3" (uuid de3b6d11-79e8-401c-a0e7-d53df26b62b7))
     (pin "4" (uuid 0c26e58f-4bd7-4fc7-a588-2a311530b968))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L18") (unit 1)
         )
@@ -2683,7 +2683,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H3") (unit 1)
         )
@@ -2710,7 +2710,7 @@
     (pin "2" (uuid 556f183e-8dcc-4e10-acae-b0eaedb757e2))
     (pin "3" (uuid 418a7853-2bcd-4d6d-83bf-477479d2116f))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "PSW1") (unit 1)
         )
@@ -2747,7 +2747,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D1") (unit 1)
         )
@@ -2773,7 +2773,7 @@
     (pin "1" (uuid 27840ae8-3934-4a7e-aa58-19caefe6c565))
     (pin "2" (uuid c638d198-3c5a-444b-9a32-b944db02f3b1))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW16") (unit 1)
         )
@@ -2810,7 +2810,7 @@
           (reference "D15") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D12") (unit 1)
         )
@@ -2840,7 +2840,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR04") (unit 1)
         )
@@ -2877,7 +2877,7 @@
           (reference "D16") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D13") (unit 1)
         )
@@ -2907,7 +2907,7 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR02") (unit 1)
         )
@@ -2935,7 +2935,7 @@
     (pin "3" (uuid bdc383c6-91ce-400d-b5f0-146de252085d))
     (pin "4" (uuid f529f174-350e-48fd-8e75-cad4849b696c))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L8") (unit 1)
         )
@@ -2960,7 +2960,7 @@
     )
     (pin "1" (uuid 783118fc-fb62-4054-9d6c-01684e3dd3d3))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0104") (unit 1)
         )
@@ -2990,7 +2990,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0116") (unit 1)
         )
@@ -3021,7 +3021,7 @@
           (reference "JP5") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP4") (unit 1)
         )
@@ -3047,7 +3047,7 @@
     (pin "1" (uuid 0794b68c-7530-418b-8adc-48c7fcf22438))
     (pin "2" (uuid c1764d3e-41fb-492a-8a78-b07a846ad3ae))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW4") (unit 1)
         )
@@ -3078,7 +3078,7 @@
           (reference "JP2") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP2") (unit 1)
         )
@@ -3106,7 +3106,7 @@
     (pin "3" (uuid 48a4aecf-ccf0-496f-9318-a71c0817b4d8))
     (pin "4" (uuid 3a1411f2-5b67-49bc-8c85-6a1d2e5791d3))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L24") (unit 1)
         )
@@ -3135,7 +3135,7 @@
     (pin "1" (uuid 1b8bdaeb-5470-4111-bd88-7e98c258c9c4))
     (pin "2" (uuid 08666eb0-67d3-48ac-aae9-9c737ebedbff))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "RSW1") (unit 1)
         )
@@ -3163,7 +3163,7 @@
     (pin "3" (uuid 956b9038-29ce-4977-83c3-9f66a8f3a7c5))
     (pin "4" (uuid aa6b83e8-915e-4c44-833d-d5844ca405cd))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L14") (unit 1)
         )
@@ -3193,7 +3193,7 @@
           (reference "#FLG05") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#FLG0101") (unit 1)
         )
@@ -3223,7 +3223,7 @@
           (reference "#PWR025") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0118") (unit 1)
         )
@@ -3273,7 +3273,7 @@
     (pin "8" (uuid 8f22370f-c145-41d3-bcbe-6a0fc893c056))
     (pin "9" (uuid 6cde224b-0d20-4fad-aa8b-b5a659c87395))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "U1") (unit 1)
         )
@@ -3299,7 +3299,7 @@
     (pin "1" (uuid 6556c7e6-646d-4344-adfc-e2284d443cfa))
     (pin "2" (uuid 9b695233-0253-4630-a5d6-5b853b8d6d43))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW15") (unit 1)
         )
@@ -3325,7 +3325,7 @@
     (pin "1" (uuid 97cec0eb-d657-4a60-acf1-989ad6fd406f))
     (pin "2" (uuid b1f103b9-432d-4fa8-a0cf-171339d9688b))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "R2") (unit 1)
         )
@@ -3350,7 +3350,7 @@
     )
     (pin "1" (uuid 466ac96b-3808-465e-9889-c0336e2602be))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0101") (unit 1)
         )
@@ -3378,7 +3378,7 @@
     (pin "3" (uuid 764b7759-5244-43dd-83fa-4fae78f9d239))
     (pin "4" (uuid 738de88b-b4e2-4af1-b757-ceaa9ff62314))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L19") (unit 1)
         )
@@ -3406,7 +3406,7 @@
     (pin "3" (uuid 4cc87861-9a76-454a-a1bf-bfa64cbd9e17))
     (pin "4" (uuid 6a9aeb39-f4fa-41cd-af51-eca068d33ec9))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L20") (unit 1)
         )
@@ -3432,7 +3432,7 @@
     (pin "1" (uuid 705bc83b-998f-43fb-9bd5-077985b4a145))
     (pin "2" (uuid cc428f9e-2703-4795-b43a-82b78ad8dbea))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "R1") (unit 1)
         )
@@ -3462,7 +3462,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0113") (unit 1)
         )
@@ -3490,7 +3490,7 @@
     (pin "3" (uuid 8ffb6bc2-564c-44ad-b9f9-2ca4ed9d22e7))
     (pin "4" (uuid f033a062-6618-467e-a0c3-e50c7d90cdfe))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L4") (unit 1)
         )
@@ -3520,7 +3520,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR03") (unit 1)
         )
@@ -3550,7 +3550,7 @@
           (reference "#FLG06") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#FLG0102") (unit 1)
         )
@@ -3574,7 +3574,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H4") (unit 1)
         )
@@ -3602,7 +3602,7 @@
     (pin "3" (uuid ee412e1c-626e-4500-a167-9ff75c031fe9))
     (pin "4" (uuid 3908059b-b78e-4f35-af8d-810dc1598c34))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L11") (unit 1)
         )
@@ -3632,7 +3632,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR06") (unit 1)
         )
@@ -3669,7 +3669,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D2") (unit 1)
         )
@@ -3695,7 +3695,7 @@
     (pin "1" (uuid d810b720-a2d2-43ad-8c4b-fab4b8669b06))
     (pin "2" (uuid 9c47dc88-cc24-4f1e-b21e-d32e2673adcc))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW17") (unit 1)
         )
@@ -3723,7 +3723,7 @@
     (pin "3" (uuid a4c8051f-e8f9-4b26-a93c-fb7848b8706b))
     (pin "4" (uuid 77a577bd-74c0-4f95-8224-9ddeb850c936))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L23") (unit 1)
         )
@@ -3754,7 +3754,7 @@
           (reference "JP9") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP7") (unit 1)
         )
@@ -3780,7 +3780,7 @@
     (pin "1" (uuid c75078de-1419-4885-9182-c0839a71f57a))
     (pin "2" (uuid 9e09f801-217c-4115-9ab9-bb5d98fceb65))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW7") (unit 1)
         )
@@ -3817,7 +3817,7 @@
           (reference "D14") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D11") (unit 1)
         )
@@ -3847,7 +3847,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0121") (unit 1)
         )
@@ -3877,7 +3877,7 @@
           (reference "#PWR025") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0115") (unit 1)
         )
@@ -3907,7 +3907,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0111") (unit 1)
         )
@@ -3935,7 +3935,7 @@
     (pin "3" (uuid 426acc32-38f2-4a5b-9a56-c40a7862960e))
     (pin "4" (uuid a5704c50-6ffe-426c-9898-c0063557e884))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L16") (unit 1)
         )
@@ -3963,7 +3963,7 @@
     (pin "C" (uuid 1761315f-aecc-4b76-80a6-a16da34307f2))
     (pin "D" (uuid b7d9556e-86db-4f02-8558-2150db18f1c5))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "J1") (unit 1)
         )
@@ -4000,7 +4000,7 @@
           (reference "D9") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D7") (unit 1)
         )
@@ -4026,7 +4026,7 @@
     (pin "1" (uuid eacda24d-4b10-42bd-af2f-382a8732b4ef))
     (pin "2" (uuid afd0866e-158d-4dd3-9383-94dd377b60a7))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW1") (unit 1)
         )
@@ -4056,7 +4056,7 @@
           (reference "#PWR07") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0122") (unit 1)
         )
@@ -4081,7 +4081,7 @@
     )
     (pin "1" (uuid fec9bab4-9475-4318-8123-8e90dde6d1e6))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0110") (unit 1)
         )
@@ -4118,7 +4118,7 @@
           (reference "D21") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D18") (unit 1)
         )
@@ -4143,7 +4143,7 @@
     )
     (pin "1" (uuid 7c280e8d-e885-421f-bc1e-5150a08c2087))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0106") (unit 1)
         )
@@ -4169,7 +4169,7 @@
     (pin "1" (uuid 2fd14a26-6bdb-4f07-a6a3-dba373f0806b))
     (pin "2" (uuid a8adf09e-0315-4914-a275-14a4eeedfbce))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "J3") (unit 1)
         )
@@ -4194,7 +4194,7 @@
     )
     (pin "1" (uuid afd1ab05-a099-406b-853a-6ea1a206a39c))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0103") (unit 1)
         )
@@ -4218,7 +4218,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H1") (unit 1)
         )
@@ -4246,7 +4246,7 @@
     (pin "3" (uuid e7648298-258d-4416-ac83-34240201b2b3))
     (pin "4" (uuid daf5cab3-0b5d-4028-8a10-e2bb9c720420))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L3") (unit 1)
         )
@@ -4270,7 +4270,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H6") (unit 1)
         )
@@ -4307,7 +4307,7 @@
           (reference "D20") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D17") (unit 1)
         )
@@ -4337,7 +4337,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0120") (unit 1)
         )
@@ -4363,7 +4363,7 @@
     (pin "1" (uuid 4b06ac49-1dee-4027-a184-9813b6b70d63))
     (pin "2" (uuid 39dea92c-f2fa-4474-9a50-495c29dd5efa))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW3") (unit 1)
         )
@@ -4391,7 +4391,7 @@
     (pin "3" (uuid b26f8f2d-2a0d-4761-bafb-f2fca94e5e3b))
     (pin "4" (uuid c86e427d-4aa1-464a-b1aa-98585755e2a9))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L22") (unit 1)
         )
@@ -4421,7 +4421,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR01") (unit 1)
         )
@@ -4449,7 +4449,7 @@
     (pin "3" (uuid aa1755fb-95f4-41a0-b2a5-51c5bf5ff837))
     (pin "4" (uuid 777e88c8-383d-481b-a316-c70c7f0b8161))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L13") (unit 1)
         )
@@ -4477,7 +4477,7 @@
     (pin "3" (uuid 4d2cda8f-6a33-4901-9b43-824898e74b34))
     (pin "4" (uuid 21737fc8-bf97-4b65-83de-24e771a109b0))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L5") (unit 1)
         )
@@ -4505,7 +4505,7 @@
     (pin "3" (uuid a20ec5cd-56b5-4967-bffc-3d5633e588da))
     (pin "4" (uuid 88864e01-0132-4497-a221-8552b9867a84))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L2") (unit 1)
         )
@@ -4542,7 +4542,7 @@
           (reference "D11") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D9") (unit 1)
         )
@@ -4567,7 +4567,7 @@
     )
     (pin "1" (uuid 52686762-36cc-4165-9c68-3e131691323f))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0105") (unit 1)
         )
@@ -4595,7 +4595,7 @@
     (pin "3" (uuid c7443de1-b3ae-4c9d-93f7-5b441005abd2))
     (pin "4" (uuid 92e3ef00-6b63-4e52-ab0a-491fdfbad87d))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L21") (unit 1)
         )
@@ -4632,7 +4632,7 @@
           (reference "D12") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D10") (unit 1)
         )
@@ -4662,7 +4662,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0108") (unit 1)
         )
@@ -4690,7 +4690,7 @@
     (pin "3" (uuid fac53340-9ff2-443e-b7e4-4a9ea9f655dd))
     (pin "4" (uuid 4a774675-8316-4205-a1b5-5a3602e55306))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L9") (unit 1)
         )
@@ -4721,7 +4721,7 @@
           (reference "JP6") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP5") (unit 1)
         )
@@ -4749,7 +4749,7 @@
     (pin "3" (uuid 45a39331-8b62-4cbf-9ab8-4c3c8f25a3c1))
     (pin "4" (uuid 32fc3a66-e279-4a81-9be3-36a3ae578332))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L15") (unit 1)
         )
@@ -4779,7 +4779,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR05") (unit 1)
         )
@@ -4810,7 +4810,7 @@
           (reference "JP9") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP1") (unit 1)
         )
@@ -4836,7 +4836,7 @@
     (pin "1" (uuid 5b8aee2d-be96-4446-a6d9-4341507a12aa))
     (pin "2" (uuid 0db45472-27a4-42c3-b6ad-bd4d36267879))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW9") (unit 1)
         )
@@ -4860,7 +4860,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H5") (unit 1)
         )
@@ -4897,7 +4897,7 @@
           (reference "D4") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D3") (unit 1)
         )
@@ -4923,7 +4923,7 @@
     (pin "1" (uuid 17911856-8d54-4fc5-9a19-584c3bfc7a59))
     (pin "2" (uuid 5f142c83-b4cf-44b5-ad50-004956a64b6f))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW18") (unit 1)
         )
@@ -4955,7 +4955,7 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "J4") (unit 1)
         )
@@ -4983,7 +4983,7 @@
     (pin "3" (uuid 31ee8b8b-cee0-40a5-99d3-b3b441df8a2c))
     (pin "4" (uuid bfdfdb6d-5194-4fc5-bd4a-2ba6325083a4))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L6") (unit 1)
         )
@@ -5020,7 +5020,7 @@
           (reference "D8") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D6") (unit 1)
         )
@@ -5048,7 +5048,7 @@
     (pin "3" (uuid c5fa384d-1526-4650-b588-64c390c3eb85))
     (pin "4" (uuid 5c1570e7-c2da-42f7-9060-9b151f75b453))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L1") (unit 1)
         )
@@ -5076,7 +5076,7 @@
     (pin "3" (uuid 8a6de3d2-80dc-4ecd-ac6b-091ada1db906))
     (pin "4" (uuid 9629b973-eb46-42cf-8871-d955c8a9ac8d))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L12") (unit 1)
         )
@@ -5104,7 +5104,7 @@
     (pin "3" (uuid eac0da0a-d063-451b-9a8b-6cef22d41d01))
     (pin "4" (uuid db0fdbd8-91c4-437d-b8d7-bbcd695b97a2))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L7") (unit 1)
         )
@@ -5130,7 +5130,7 @@
     (pin "1" (uuid f667ec7c-3cfe-4204-a7fc-e5b3238bf995))
     (pin "2" (uuid 7b9d5f68-bdd4-4f4f-b9c2-7262c3557b43))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW8") (unit 1)
         )
@@ -5158,7 +5158,7 @@
     (pin "3" (uuid e5b689b4-193c-475d-bf6b-43d025450bd9))
     (pin "4" (uuid 8907c1c2-7697-4244-ac9d-7cf850c1282b))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L10") (unit 1)
         )
@@ -5195,7 +5195,7 @@
           (reference "D18") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D15") (unit 1)
         )
@@ -5220,7 +5220,7 @@
     )
     (pin "1" (uuid 3ee7407d-ca84-4eab-8bd3-b87e63821dd1))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0109") (unit 1)
         )
@@ -5257,7 +5257,7 @@
           (reference "D10") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D8") (unit 1)
         )
@@ -5281,7 +5281,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H7") (unit 1)
         )
@@ -5318,7 +5318,7 @@
           (reference "D17") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D14") (unit 1)
         )
@@ -5349,7 +5349,7 @@
           (reference "JP9") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP8") (unit 1)
         )
@@ -5375,7 +5375,7 @@
     (pin "1" (uuid e61a2dd6-9822-4dca-9a54-8d025333a5d4))
     (pin "2" (uuid 1da65332-4bf0-48b1-b269-360a57008563))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW2") (unit 1)
         )
@@ -5412,7 +5412,7 @@
           (reference "D5") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D4") (unit 1)
         )
@@ -5438,7 +5438,7 @@
     (pin "1" (uuid ce205c40-2eb3-4115-aab8-8619a071979f))
     (pin "2" (uuid 0248845d-c6c3-4b08-8fcd-f49c57632a7e))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW11") (unit 1)
         )
@@ -5462,7 +5462,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "H2") (unit 1)
         )
@@ -5488,7 +5488,7 @@
     (pin "1" (uuid fe2af9ef-a5c0-4ca1-a373-fa9d52340961))
     (pin "2" (uuid 9b4424cc-1726-4784-b87c-f71e3cfbe012))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW10") (unit 1)
         )
@@ -5514,7 +5514,7 @@
     (pin "1" (uuid 126b3d17-e067-4156-8462-a40840ef780c))
     (pin "2" (uuid 6e013def-6d2f-45d1-a011-cee1e5b06b8b))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW6") (unit 1)
         )
@@ -5540,7 +5540,7 @@
     (pin "1" (uuid debf55b3-2a4b-4d69-8792-07a795f3bc00))
     (pin "2" (uuid 62ebba6b-7703-4dc1-99af-a5545765e712))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW13") (unit 1)
         )
@@ -5574,7 +5574,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "J2") (unit 1)
         )
@@ -5600,7 +5600,7 @@
     (pin "1" (uuid 4ddd2c4e-38d7-4e02-bca7-c295b8e4c6f5))
     (pin "2" (uuid 44424bd1-3703-4d9b-9111-02012ced89ef))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW5") (unit 1)
         )
@@ -5628,7 +5628,7 @@
     (pin "3" (uuid 09163e98-0e2b-4e2c-8fd5-662495394799))
     (pin "4" (uuid fbbed29c-c6ef-42b5-8bfb-0ba741261a1c))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "L17") (unit 1)
         )
@@ -5654,7 +5654,7 @@
     (pin "1" (uuid 13c03ef4-8880-43e7-920b-6802c5602bc7))
     (pin "2" (uuid 87e6137e-4116-4c66-8c6e-e5674f548b79))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "SW14") (unit 1)
         )
@@ -5684,7 +5684,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0107") (unit 1)
         )
@@ -5709,7 +5709,7 @@
     )
     (pin "1" (uuid e045a42d-6e94-42ae-9a65-096eb9abd53d))
     (instances
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0102") (unit 1)
         )
@@ -5739,7 +5739,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "#PWR0112") (unit 1)
         )
@@ -5776,7 +5776,7 @@
           (reference "D6") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "D5") (unit 1)
         )
@@ -5807,7 +5807,7 @@
           (reference "JP4") (unit 1)
         )
       )
-      (project "unicorne-regular-3x5-reversible"
+      (project "unicorne-cherry-mx-3x5-reversible"
         (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
           (reference "JP3") (unit 1)
         )
