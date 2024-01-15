@@ -2,4 +2,5 @@
 fp-info-cache
 *backups
 *.kicad_prl
+*.rpt
 *.zip
