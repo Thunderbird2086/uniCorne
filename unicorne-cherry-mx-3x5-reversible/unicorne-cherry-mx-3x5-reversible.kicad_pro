@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "net_conflict|185300000|86280000|766e96cb-5126-4839-826d-5e4460e44f68|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -412,7 +410,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "unicorne-regular-3x5-reversible.kicad_pro",
+    "filename": "unicorne-cherry-mx-3x5-reversible.kicad_pro",
     "version": 1
   },
   "net_settings": {
