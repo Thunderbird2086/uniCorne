@@ -4,3 +4,6 @@
 [submodule "unicorne-cherry-mx-3x5-reversible/tb2086-kicad"]
 	path = unicorne-cherry-mx-3x5-reversible/tb2086-kicad
 	url = git@github.com:Thunderbird2086/tb2086-kicad.git
+[submodule "unicorne-chocolate-3x5-reversible/tb2086-kicad"]
+	path = unicorne-chocolate-3x5-reversible/tb2086-kicad
+	url = git@github.com:Thunderbird2086/tb2086-kicad.git
