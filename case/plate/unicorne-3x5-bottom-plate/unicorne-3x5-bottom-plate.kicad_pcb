@@ -110,7 +110,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a6f99765-cd93-48c7-b5ad-5403d2c324e9)
     )
-    (pad "" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp ba0c3a84-c0f4-47ca-8e74-4d7a2da40689))
+    (pad "" thru_hole circle locked (at 0 0.003095) (size 4.2 4.2) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp ba0c3a84-c0f4-47ca-8e74-4d7a2da40689))
   )
 
   (footprint "KBD_PARTS:M2_Hole_TH" locked (layer "F.Cu")

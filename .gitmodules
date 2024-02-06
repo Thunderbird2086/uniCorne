@@ -10,3 +10,6 @@
 [submodule "uniCorne-3x6/cherry-mx-reversible/tb2086-kicad"]
 	path = uniCorne-3x6/cherry-mx-reversible/tb2086-kicad
 	url = git@github.com:Thunderbird2086/tb2086-kicad.git
+[submodule "uniCorne-3x6/chocolate-reversible/tb2086-kicad"]
+	path = uniCorne-3x6/chocolate-reversible/tb2086-kicad
+	url = git@github.com:Thunderbird2086/tb2086-kicad.git
