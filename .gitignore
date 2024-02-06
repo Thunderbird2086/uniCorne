@@ -1,5 +1,6 @@
 .DS_Store 
 fp-info-cache
+gerber
 *backups
 *.kicad_prl
 *.rpt

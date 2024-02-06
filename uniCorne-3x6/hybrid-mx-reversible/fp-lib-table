@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TB2086_KEYSWITCH")(type "KiCad")(uri "${KIPRJMOD}/tb2086-kicad/footprints/KeySwitch.pretty")(options "")(descr ""))
+  (lib (name "TB2086_LED")(type "KiCad")(uri "${KIPRJMOD}/tb2086-kicad/footprints/LED.pretty")(options "")(descr ""))
+  (lib (name "TB2086_MISC")(type "KiCad")(uri "${KIPRJMOD}/tb2086-kicad/footprints/misc.pretty")(options "")(descr ""))
+  (lib (name "TB2086_SMD")(type "KiCad")(uri "${KIPRJMOD}/tb2086-kicad/footprints/SMD.pretty")(options "")(descr ""))
+)
