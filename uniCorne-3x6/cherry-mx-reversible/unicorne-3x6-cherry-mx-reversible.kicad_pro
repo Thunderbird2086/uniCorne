@@ -1647,6 +1647,14 @@
       {
         "netclass": "Default",
         "pattern": "row3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BAT+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J3-Pin_2)"
       }
     ]
   },
