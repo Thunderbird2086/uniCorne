@@ -412,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "unicorne-3x5-hybrid-mx-reversible.kicad_pro",
+    "filename": "unicorne-3x6-hybrid-mx-reversible.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -1649,6 +1649,14 @@
       {
         "netclass": "Default",
         "pattern": "row3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BAT+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J3-Pin_2)"
       }
     ]
   },
