@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "unicorne-3x5-bottom-plate.kicad_pro",
+    "filename": "unicorne-3x6-bottom-plate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -458,7 +458,7 @@
       "idf": "",
       "netlist": "unicorne-charger.net",
       "specctra_dsn": "",
-      "step": "unicorne-charger.step",
+      "step": "unicorne-3x6-bottom.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
