@@ -1,0 +1,44 @@
+name: uniCorne Case
+
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+*'
+
+  workflow_dispatch:
+
+jobs:
+  Zip-Generation:
+    runs-on: ubuntu-latest  # Don't change
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Zip STL files
+      run: |
+          zip -r --junk-paths uniCorne-3x5-cherry-mx-stl.zip case/3d-printing/3x5/uniCorne-cherry-mx-3x5-*.stl
+          zip -r --junk-paths uniCorne-3x5-chocolate-stl.zip case/3d-printing/3x5/uniCorne-chocolate-3x5-*.stl
+          zip -r --junk-paths uniCorne-3x5-cherry-mx-stl.zip case/3d-printing/3x5/uniCorne-cherry-mx-3x5-*.stl
+          zip -r --junk-paths uniCorne-3x6-chocolate-stl.zip case/3d-printing/3x6/uniCorne-chocolate-3x6-*.stl
+          zip -r --junk-paths uniCorne-3x6-cherry-mx-stl.zip case/3d-printing/3x6/uniCorne-cherry-mx-3x6-*.stl
+          zip -r --junk-paths uniCorne-3x6-cherry-mx-stl.zip case/3d-printing/3x6/uniCorne-cherry-mx-3x6-*.stl
+
+    - name: Zip STEP files
+      run: |
+          zip -r --junk-paths uniCorne-3x5-chocolate-step.zip case/cnc/3x5/uniCorne-chocolate-3x5-*.step
+          zip -r --junk-paths uniCorne-3x5-hybrid-mx-step.zip case/cnc/3x5/uniCorne-hybrid-mx-3x5-*.step
+          zip -r --junk-paths uniCorne-3x5-hybrid-mx-step.zip case/cnc/3x5/uniCorne-hybrid-mx-3x5-*.step
+          zip -r --junk-paths uniCorne-3x6-chocolate-step.zip case/cnc/3x6/uniCorne-chocolate-3x6-*.step
+          zip -r --junk-paths uniCorne-3x6-hybrid-mx-step.zip case/cnc/3x6/uniCorne-hybrid-mx-3x6-*.step
+          zip -r --junk-paths uniCorne-3x6-hybrid-mx-step.zip case/cnc/3x6/uniCorne-hybrid-mx-3x6-*.step
+
+    - name: GH Release
+      uses: softprops/action-gh-release@v0.1.15
+      with:
+        files: "*.zip"
+        draft: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

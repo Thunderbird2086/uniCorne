@@ -1,0 +1,83 @@
+name: uniCorne PCB
+
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+*'
+
+  workflow_dispatch:
+
+jobs:
+  KiBot-Generation:
+    runs-on: ubuntu-latest  # Don't change
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Generate gerber for uniCorne 3x5 Cherry MX reversible
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: uniCorne-3x5/cherry-mx-reversible/gerber
+        board: uniCorne-3x5/cherry-mx-reversible/unicorne-3x5-cherry-mx-reversible.kicad_pcb
+        schema: uniCorne-3x5/cherry-mx-reversible/unicorne-3x5-cherry-mx-reversible.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x5 Chocolate reversible
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: uniCorne-3x5/chocolate-reversible/gerber
+        board: uniCorne-3x5/chocolate-reversible/unicorne-3x5-chocolate-reversible.kicad_pcb
+        schema: uniCorne-3x5/chocolate-reversible/unicorne-3x5-chocolate-reversible.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x5 Cherry MX reversible
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: uniCorne-3x5/hybrid-mx-reversible/gerber
+        board: uniCorne-3x5/hybrid-mx-reversible/unicorne-3x5-hybrid-mx-reversible.kicad_pcb
+        schema: uniCorne-3x5/hybrid-mx-reversible/unicorne-3x5-hybrid-mx-reversible.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x6 Cherry MX reversible
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: uniCorne-3x6/cherry-mx-reversible/gerber
+        board: uniCorne-3x6/cherry-mx-reversible/unicorne-3x6-cherry-mx-reversible.kicad_pcb
+        schema: uniCorne-3x6/cherry-mx-reversible/unicorne-3x6-cherry-mx-reversible.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x6 Chocolate reversible
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: uniCorne-3x6/chocolate-reversible/gerber
+        board: uniCorne-3x6/chocolate-reversible/unicorne-3x6-chocolate-reversible.kicad_pcb
+        schema: uniCorne-3x6/chocolate-reversible/unicorne-3x6-chocolate-reversible.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x6 Cherry MX reversible
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: uniCorne-3x6/hybrid-mx-reversible/gerber
+        board: uniCorne-3x6/hybrid-mx-reversible/unicorne-3x6-hybrid-mx-reversible.kicad_pcb
+        schema: uniCorne-3x6/hybrid-mx-reversible/unicorne-3x6-hybrid-mx-reversible.kicad_sch
+
+    - name: Zip Gerber files
+      run: |
+          zip -r --junk-paths uniCorne-3x5-cherry-mx-reversible.zip uniCorne-3x5/cherry-mx-reversible/gerber
+          zip -r --junk-paths uniCorne-3x5-chocolate-reversible.zip uniCorne-3x5/chocolate-reversible/gerber
+          zip -r --junk-paths uniCorne-3x5-hybrid-mx-reversible.zip uniCorne-3x5/hybrid-mx-reversible/gerber
+          zip -r --junk-paths uniCorne-3x6-cherry-mx-reversible.zip uniCorne-3x6/cherry-mx-reversible/gerber
+          zip -r --junk-paths uniCorne-3x6-chocolate-reversible.zip uniCorne-3x6/chocolate-reversible/gerber
+          zip -r --junk-paths uniCorne-3x6-hybrid-mx-reversible.zip uniCorne-3x6/hybrid-mx-reversible/gerber
+
+    - name: GH Release
+      uses: softprops/action-gh-release@v0.1.15
+      with:
+        files: "*.zip"
+        draft: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

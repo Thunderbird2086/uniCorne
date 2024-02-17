@@ -1,8 +1,12 @@
 .DS_Store 
 fp-info-cache
-gerber
-*backups
+gerber/
+release/
+*backups/
 *.kicad_prl
+*.net
+*.dsn
+*.ses
 *.rpt
 *.step
 *.zip

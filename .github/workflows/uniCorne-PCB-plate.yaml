@@ -1,0 +1,79 @@
+name: uniCorne PCB Plates
+
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+*'
+
+  workflow_dispatch:
+
+jobs:
+  KiBot-Generation:
+    runs-on: ubuntu-latest  # Don't change
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Generate gerber for uniCorne 3x5 Bottom plate
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: case/plate/3x5/unicorne-3x5-bottom-plate/gerber
+        board: case/plate/3x5/unicorne-3x5-bottom-plate/unicorne-3x5-bottom-plate.kicad_pcb
+        schema: case/plate/3x5/unicorne-3x5-bottom-plate/unicorne-3x5-bottom-plate.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x5 Top plate
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: case/plate/3x5/unicorne-3x5-top-plate/gerber
+        board: case/plate/3x5/unicorne-3x5-top-plate/unicorne-3x5-top-plate.kicad_pcb
+
+    - name: Generate gerber for uniCorne 3x5 Top plate hybrid
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: case/plate/3x5/unicorne-3x5-top-plate-hybrid/gerber
+        board: case/plate/3x5/unicorne-3x5-top-plate-hybrid/unicorne-3x5-top-plate-hybrid.kicad_pcb
+
+    - name: Generate gerber for uniCorne 3x6 Bottom plate
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: case/plate/3x6/unicorne-3x6-bottom-plate/gerber
+        board: case/plate/3x6/unicorne-3x6-bottom-plate/unicorne-3x6-bottom-plate.kicad_pcb
+        schema: case/plate/3x6/unicorne-3x6-bottom-plate/unicorne-3x6-bottom-plate.kicad_sch
+
+    - name: Generate gerber for uniCorne 3x6 Top plate
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: case/plate/3x6/unicorne-3x6-top-plate/gerber
+        board: case/plate/3x6/unicorne-3x6-top-plate/unicorne-3x6-top-plate.kicad_pcb
+
+    - name: Generate gerber for uniCorne 3x6 Top plate hybrid
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: .kibot.yaml
+        dir: case/plate/3x6/unicorne-3x6-top-plate-hybrid/gerber
+        board: case/plate/3x6/unicorne-3x6-top-plate-hybrid/unicorne-3x6-top-plate-hybrid.kicad_pcb
+
+    - name: Zip Gerber files
+      run: |
+          zip -r --junk-paths uniCorne-3x5-bottom-plate.zip case/plate/3x5/unicorne-3x5-bottom-plate/gerber
+          zip -r --junk-paths uniCorne-3x5-top-plate.zip case/plate/3x5/unicorne-3x5-top-plate/gerber
+          zip -r --junk-paths uniCorne-3x5-top-plate-hybrid.zip case/plate/3x5/unicorne-3x5-top-plate-hybrid/gerber
+          zip -r --junk-paths uniCorne-3x6-bottom-plate.zip case/plate/3x6/unicorne-3x6-bottom-plate/gerber
+          zip -r --junk-paths uniCorne-3x6-top-plate.zip case/plate/3x6/unicorne-3x6-top-plate/gerber
+          zip -r --junk-paths uniCorne-3x6-top-plate-hybrid.zip case/plate/3x6/unicorne-3x6-top-plate-hybrid/gerber
+
+    - name: GH Release
+      uses: softprops/action-gh-release@v0.1.15
+      with:
+        files: "*.zip"
+        draft: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
