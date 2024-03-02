@@ -2,6 +2,10 @@
 kiplot:
   version: 1
 
+global:
+  resources_dir: '.resources'
+  units: 'millimeters'
+
 preflight:
   check_zone_fills: true
   ignore_unconnected: true
