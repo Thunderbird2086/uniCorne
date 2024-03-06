@@ -9,3 +9,7 @@ It supports hardware handedness for promicro-ish RP2040 controller boards.  Also
  - [Android Robot](https://www.1001freefonts.com/android-robot.font)
  - [Avenir Next Heavy](https://en.maisfontes.com/avenir-next-heavy.font)
  - [Hack](https://www.1001freefonts.com/hack.font)
+
+## firmwares
+ - [QMK](https://github.com/Thunderbird2086/tb2086-qmk)
+ - [ZMK](https://github.com/Thunderbird2086/unicorne-zmk-config)
