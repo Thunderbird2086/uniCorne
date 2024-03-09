@@ -4,14 +4,14 @@ uniCorne is inspired by [corne](foostatn/crkbd), and it supports promicro-ish co
 [elite-pi](https://docs.keeb.io/elite-pi-guide) and [Ble Micro Pro](https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/).
 It supports hardware handedness for promicro-ish RP2040 controller boards.  Also, it is designed to support [nice!view](https://nicekeyboards.com/docs/nice-view/) without modifying board.
 
-## Profles
+## Profiles
 uniCorne offers three distinct flavors: standard, low profile, and hybrid.
 
 ### Standard Profile
 Equipped with Cherry MX compatible switches, available in both 3-pin and 5-pin .
 
 ### Low profile
-The low-profile variant primarily incorporates Kailh Low-Profile switches, supporting both Kailh Choc V1 and Kailh Choc V2 switches.
+The low-profile variant primarily incorporates Kailh Low-Profile switches, supporting both Kailh Choc V1 and V2 switches.
 
 ### Hybrid priofle 
 In the hybrid setup, low-profile switches are utilized for the thumb block, while standard-profile switches are employed for the remaining keys.
