@@ -1,12 +1,12 @@
 # uniCorne
 
-uniCorne is inspired by [corne](foostatn/crkbd), and here are the key features of UniCorne:
+uniCorne is inspired by [corne](foostatn/crkbd), and here are the key features of uniCorne:
 
-1. **Controller Compatibility**: UniCorne is specifically tailored to work with ProMicro-like controllers such as [Nice!Nano](https://nicekeyboards.com/docs/nice-nano/), [Elite-Pi](https://docs.keeb.io/elite-pi-guide), and [Ble Micro Pro](https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/). This ensures seamless integration and optimal performance.
-1. **Hardware Handedness**: Unlike many other keyboards, UniCorne supports hardware handedness for ProMicro-like RP2040 controller boards. This flexibility allows users to choose their preferred orientation without sacrificing functionality.
-1. **Nice!View Integration**: UniCorne has been meticulously crafted to seamlessly integrate with [Nice!View](https://nicekeyboards.com/docs/nice-view/). Users can enjoy a cohesive experience without needing any modifications to the board.
+1. **Controller Compatibility**: uniCorne is specifically tailored to work with ProMicro-like controllers such as [Nice!Nano](https://nicekeyboards.com/docs/nice-nano/), [Elite-Pi](https://docs.keeb.io/elite-pi-guide), and [Ble Micro Pro](https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/). This ensures seamless integration and optimal performance.
+1. **Hardware Handedness**: Unlike many other keyboards, uniCorne supports hardware handedness for ProMicro-like RP2040 controller boards. This flexibility allows users to choose their preferred orientation without sacrificing functionality.
+1. **Nice!View Integration**: uniCorne has been meticulously crafted to seamlessly integrate with [Nice!View](https://nicekeyboards.com/docs/nice-view/). Users can enjoy a cohesive experience without needing any modifications to the board.
 
-In summary, UniCorne combines controller compatibility, hardware flexibility, and thoughtful integration, making it a standout choice for keyboard enthusiasts.
+In summary, uniCorne combines controller compatibility, hardware flexibility, and thoughtful integration, making it a standout choice for keyboard enthusiasts.
 
 ## Profiles
 uniCorne offers three distinct flavors: standard profile, low profile, and hybrid profile.
