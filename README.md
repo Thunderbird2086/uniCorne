@@ -17,7 +17,7 @@ Equipped with Cherry MX compatible switches, available in both 3-pin and 5-pin .
 ### Low profile
 The low-profile variant primarily incorporates Kailh Low-Profile switches, supporting both Kailh Choc V1 and V2 switches.
 
-### Hybrid priofle 
+### Hybrid profile
 In the hybrid setup, low-profile switches are utilized for the thumb block, while standard-profile switches are employed for the remaining keys.
 
 ## Variants
