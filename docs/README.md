@@ -2,8 +2,9 @@
 
 ## Materials Needed: 
 - Common parts<br>
+
   | **Component**        | **Quantity** | **Description**                                      |
-  |---                   |---           | ---                                                  |
+  |---                   |---:          | ---                                                  |
   | PCB                  | 2            | Left and right side                                  |
   | Switches             | 36           | Mechanical switches (e.g., Cherry MX, Kailh Choc)    |
   | Keycaps              | 36           | Keycaps compatible with your switches                |
@@ -15,9 +16,11 @@
   | Bottom Plate         | 1            | Plate compatible with uniCorne-3x5 layout            |
   | Screws               | As needed    | Screws for assembling the case                       |
   | USB Cable            | 1            | USB cable for connecting the keyboard                |
+
 - Optional parts<br>
+
   | **Component**        | **Quantity** | **Description**                                  |
-  |---                   |---           | ---                                              |
+  |---                   |---:          | ---                                              |
   | LED                  | 30           | For per-key, SK6812 mini-e                       |
   | LED                  | 6            | For backlight, SK6812 mini 3535                  |
   | OLED Screen          | 1            | For displaying information, 128x32               |
