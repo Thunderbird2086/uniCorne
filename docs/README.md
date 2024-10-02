@@ -40,7 +40,7 @@
       ![MCU jumbers](imgs/MCU-jumpers.jpg)
    1. Solder pin sockets which allows you to replace MCUs later.<br>
       ![MCU pin sockets](imgs/3x5-MCU-pin-socket.jpg)
-   1. Place the MUC on pic sockets and insert pin headers.<br>
+   1. Place the MUC on pin sockets and insert pin headers.<br>
       ![MCU pin header](imgs/3x5-MCU-pin.jpg)
    1. Cut the pin header for one side once everything is aligned.<br>
       ![MCU pin header](imgs/3x5-MCU-pin-cut-out.jpg)
