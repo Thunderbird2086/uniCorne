@@ -50,7 +50,7 @@
    Solder TRRS socket.<br>
    ![diode marking](imgs/TRRS.jpg)
 1. Test the PCB:<br>
-   Before fully assembling, test the PCB to ensure all switches work correctly after installing the relavant [firmware](/Thunderbird2086/tb2086-qmk/releases). You can use a keyboard tester software for this e.g. QMK Toolbox.
+   Before fully assembling, test the PCB to ensure all switches work correctly after installing the relavant [firmware](https://github.com/Thunderbird2086/tb2086-qmk/releases). You can use a keyboard tester software for this e.g. QMK Toolbox.
 1. Optional parts:
    - LEDs:<br>
      Solder LEDs.  There are two types: one for per-key lighting and the other for backlighting.<br>
