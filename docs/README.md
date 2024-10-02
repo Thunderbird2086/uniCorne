@@ -58,8 +58,8 @@
    - OLED Screen:<br>
      If you have an OLED screen, solder jumpers for OLED as well as 5-pin socket on the bottom side.<br>
      ![OLED](imgs/OLED.jpg)
-   - Hardware Handedness:<bp>
-     If you want to use hardware handedness, solder the handedness resitor on the bottom side<br>
+   - Hardware Handedness:<br>
+     If you want to use hardware handedness, solder the handedness resitor on the bottom side.<br>
      ![Hardware Handedness](imgs/Handedness.jpg)
 1. Assemble:<br>
    Place top plate, the PCB, and the bottom plate. Then, secure them with screws.
