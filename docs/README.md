@@ -1,7 +1,7 @@
 # uniCorne Build Guide
 
 ## Materials Needed: 
-- Common parts<br>
+- Common parts
 
   | **Component**        | **Quantity** | **Description**                                      |
   |---                   |---:          | ---                                                  |
@@ -9,23 +9,45 @@
   | Switches             | 36           | Mechanical switches (e.g., Cherry MX, Kailh Choc)    |
   | Keycaps              | 36           | Keycaps compatible with your switches                |
   | Hotswap Sockets      | 36           | Hotswap sockets compatible with your switches        |
-  | Diodes               | 36           | Diodes for each switch e.g. 1N4148W SOD-123          |
-  | TRRS Sockets         | 2            | For connecting the two halves of keyboard            |
-  | TRRS Cable           | 1            | Cable to connect the two halves of keyboard          |
+  | 1N4148W SOD-123      | 36           | Diodes for each switch                               |
+  | Tactile Push Button  | 1            | SMD 2x4x3.5mm                                        |
   | Top Plate            | 1            | Case compatible with uniCorne-3x5 PCB                |
-  | Bottom Plate         | 1            | Plate compatible with uniCorne-3x5 layout            |
-  | Screws               | As needed    | Screws for assembling the case                       |
-  | USB Cable            | 1            | USB cable for connecting the keyboard                |
+  | Bottom Plate         | 1            | Plate compatible with uniCorne-3x5 PCB               |
+  | M2x4 Screw           | 20           | Screws for assembling the case                       |
+  | M2x6 Standoff        | 10           | Spacers for assembling the case                      |
+
+- Wired or Wireless
+  - Wired keyboard
+
+    | **Component**        | **Quantity** | **Description**                                      |
+    |---                   |---:          | ---                                                  |
+    | MCU                  | 2            | Promicro-ish e.g. Promicro, Elite-Pi, etc.           |
+    | TRRS Sockets         | 2            | For connecting the two halves of keyboard            |
+    | TRRS Cable           | 1            | Cable to connect the two halves of keyboard          |
+
+  - Wireless keyboard
+
+    | **Component**        | **Quantity** | **Description**                                      |
+    |---                   |---:          | ---                                                  |
+    | MCU                  | 2            | Promicro-ish NRF52480 board e.g. [nice!nano](https://nicekeyboards.com/nice-nano)           |
+    | MSK-12C02 SMD        | 2            | Power switch for wireless                            |
+    | Pico-EZmate 78171 2P | 2            | 2P socket for battery                                |
 
 - Optional parts<br>
 
-  | **Component**        | **Quantity** | **Description**                                  |
-  |---                   |---:          | ---                                              |
-  | LED                  | 30           | For per-key, SK6812 mini-e                       |
-  | LED                  | 6            | For backlight, SK6812 mini 3535                  |
-  | OLED Screen          | 1            | For displaying information, 128x32               |
-  | Handedness resistors | 2            | One for each side                                |
-  | Tenting Kit          | 1            | For ergonomic typing angle                       |
+  | **Component**        | **Quantity** | **Description**                                        |
+  |---                   |---:          | ---                                                    |
+  | OLED Screen          | 1            | For displaying information, 128x32                     |
+  | Tenting Kit          | 1            | For ergonomic typing angle                             |
+
+  - Wired keyboard
+
+    | **Component**        | **Quantity** | **Description**                                      |
+    |---                   |---:          | ---                                                  |
+    | SK6812 mini-e        | 30           | For per-key LED                                      |
+    | SK6812 mini 3535     | 6            | For backlight LED                                    |
+    | 10k SMD2012(metric)  | 2            | For handedness for wired keyboard                    |
+    | 4.7k SMD2012(metric) | 2            | For I2C communication for wired keyboard             |
 
 ## Step-by-Step Guide:
 1. Before starting:<br>
