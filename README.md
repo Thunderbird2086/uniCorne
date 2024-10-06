@@ -28,7 +28,7 @@ The 3x6 variant caters to users who may not be accustomed to split keyboards, as
 On the other hand, the 3x5 variant provides a more streamlined option, with 18 keys on each side for a total of 36 keys.
 
 ## Build Guides
-uniCornne 3x5 is used as an example. Refer to [the guides](https://thunderbird2086.github.io/uniCorne).
+uniCorne 3x5 is used as an example. Refer to [the guides](https://thunderbird2086.github.io/uniCorne).
 
 ## fonts
  - [Android Robot](https://www.1001freefonts.com/android-robot.font)
