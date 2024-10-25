@@ -1,188 +1,444 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 91c18528-7f63-4590-b074-ab86ab8f10f4)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 122.555 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 16cdd24c-8b0e-43ee-96c2-d368eb6a5a63)
-    (property "Reference" "H2" (at 120.015 93.3363 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MountingHole" (at 120.015 95.2573 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "KBD_PARTS:M2_Hole_TH" (at 122.555 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 122.555 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "unicorne-3x5-bottom-plate"
-        (path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "unicorne-regular-3x5-reversible"
-        (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
-          (reference "H6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 122.555 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3af014c0-ce60-4816-879a-9dd4b170a75a)
-    (property "Reference" "H1" (at 122.555 84.1121 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MountingHole" (at 122.555 86.0331 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "KBD_PARTS:M2_Hole_TH" (at 122.555 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 122.555 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "unicorne-3x5-bottom-plate"
-        (path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "unicorne-regular-3x5-reversible"
-        (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
-          (reference "H7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 162.56 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4c2471d3-b548-4486-82cb-328a4a09c0d1)
-    (property "Reference" "H5" (at 165.1 112.3863 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 165.1 114.3073 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "KBD_PARTS:M2_Hole_TH" (at 162.56 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 162.56 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "unicorne-3x5-bottom-plate"
-        (path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
-          (reference "H5") (unit 1)
-        )
-      )
-      (project "unicorne-regular-3x5-reversible"
-        (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 149.86 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 88226360-7dca-4fa4-a442-471217bd1185)
-    (property "Reference" "H3" (at 152.4 108.5763 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 152.4 110.4973 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "KBD_PARTS:M2_Hole_TH" (at 149.86 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.86 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "unicorne-3x5-bottom-plate"
-        (path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
-          (reference "H3") (unit 1)
-        )
-      )
-      (project "unicorne-regular-3x5-reversible"
-        (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 155.575 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9e157550-de44-42fa-a8b4-4293540a67a8)
-    (property "Reference" "H4" (at 158.115 81.9063 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 158.115 83.8273 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "KBD_PARTS:M2_Hole_TH" (at 155.575 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 155.575 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "unicorne-3x5-bottom-plate"
-        (path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
-          (reference "H4") (unit 1)
-        )
-      )
-      (project "unicorne-regular-3x5-reversible"
-        (path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "91c18528-7f63-4590-b074-ab86ab8f10f4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 122.555 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16cdd24c-8b0e-43ee-96c2-d368eb6a5a63")
+		(property "Reference" "H2"
+			(at 120.015 93.3363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 120.015 95.2573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "KBD_PARTS:M2_Hole_TH"
+			(at 122.555 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 122.555 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.555 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "unicorne-3x5-bottom-plate"
+				(path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "unicorne-regular-3x5-reversible"
+				(path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 122.555 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af014c0-ce60-4816-879a-9dd4b170a75a")
+		(property "Reference" "H1"
+			(at 122.555 84.1121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 122.555 86.0331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KBD_PARTS:M2_Hole_TH"
+			(at 122.555 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 122.555 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.555 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "unicorne-3x5-bottom-plate"
+				(path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "unicorne-regular-3x5-reversible"
+				(path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 162.56 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c2471d3-b548-4486-82cb-328a4a09c0d1")
+		(property "Reference" "H5"
+			(at 165.1 112.3863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 165.1 114.3073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KBD_PARTS:M2_Hole_TH"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "unicorne-3x5-bottom-plate"
+				(path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+			(project "unicorne-regular-3x5-reversible"
+				(path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88226360-7dca-4fa4-a442-471217bd1185")
+		(property "Reference" "H3"
+			(at 152.4 108.5763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.4 110.4973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KBD_PARTS:M2_Hole_TH"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "unicorne-3x5-bottom-plate"
+				(path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+			(project "unicorne-regular-3x5-reversible"
+				(path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 155.575 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e157550-de44-42fa-a8b4-4293540a67a8")
+		(property "Reference" "H4"
+			(at 158.115 81.9063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.115 83.8273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KBD_PARTS:M2_Hole_TH"
+			(at 155.575 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 155.575 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "unicorne-3x5-bottom-plate"
+				(path "/91c18528-7f63-4590-b074-ab86ab8f10f4"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+			(project "unicorne-regular-3x5-reversible"
+				(path "/ea5c1f8d-7557-4cbf-a5a2-ee0a51c138e9"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
