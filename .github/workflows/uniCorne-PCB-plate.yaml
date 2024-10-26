@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Generate gerber for uniCorne 3x5 Bottom plate
-      uses: INTI-CMNB/KiBot@v2_k7
+      uses: INTI-CMNB/KiBot@v1.8.1
       with:
         config: .kibot.yaml
         dir: case/plate/3x5/unicorne-3x5-bottom-plate/gerber
@@ -26,21 +26,21 @@ jobs:
         schema: case/plate/3x5/unicorne-3x5-bottom-plate/unicorne-3x5-bottom-plate.kicad_sch
 
     - name: Generate gerber for uniCorne 3x5 Top plate
-      uses: INTI-CMNB/KiBot@v2_k7
+      uses: INTI-CMNB/KiBot@v1.8.1
       with:
         config: .kibot.yaml
         dir: case/plate/3x5/unicorne-3x5-top-plate/gerber
         board: case/plate/3x5/unicorne-3x5-top-plate/unicorne-3x5-top-plate.kicad_pcb
 
     - name: Generate gerber for uniCorne 3x5 Top plate hybrid
-      uses: INTI-CMNB/KiBot@v2_k7
+      uses: INTI-CMNB/KiBot@v1.8.1
       with:
         config: .kibot.yaml
         dir: case/plate/3x5/unicorne-3x5-top-plate-hybrid/gerber
         board: case/plate/3x5/unicorne-3x5-top-plate-hybrid/unicorne-3x5-top-plate-hybrid.kicad_pcb
 
     - name: Generate gerber for uniCorne 3x6 Bottom plate
-      uses: INTI-CMNB/KiBot@v2_k7
+      uses: INTI-CMNB/KiBot@v1.8.1
       with:
         config: .kibot.yaml
         dir: case/plate/3x6/unicorne-3x6-bottom-plate/gerber
@@ -48,14 +48,14 @@ jobs:
         schema: case/plate/3x6/unicorne-3x6-bottom-plate/unicorne-3x6-bottom-plate.kicad_sch
 
     - name: Generate gerber for uniCorne 3x6 Top plate
-      uses: INTI-CMNB/KiBot@v2_k7
+      uses: INTI-CMNB/KiBot@v1.8.1
       with:
         config: .kibot.yaml
         dir: case/plate/3x6/unicorne-3x6-top-plate/gerber
         board: case/plate/3x6/unicorne-3x6-top-plate/unicorne-3x6-top-plate.kicad_pcb
 
     - name: Generate gerber for uniCorne 3x6 Top plate hybrid
-      uses: INTI-CMNB/KiBot@v2_k7
+      uses: INTI-CMNB/KiBot@v1.8.1
       with:
         config: .kibot.yaml
         dir: case/plate/3x6/unicorne-3x6-top-plate-hybrid/gerber

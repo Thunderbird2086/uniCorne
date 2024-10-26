@@ -12,18 +12,22 @@ In summary, uniCorne combines controller compatibility, hardware flexibility, an
 uniCorne offers three distinct flavors: standard profile, low profile, and hybrid profile.
 
 ### Standard Profile
-Equipped with Cherry MX compatible switches, available in both 3-pin and 5-pin .
+Equipped with Cherry MX compatible switches, available in both 3-pin and 5-pin.<br>
+![Standard Profile](/docs/imgs/unicorne-3x5-cherry-mx.png)
 
 ### Low Profile
-The low-profile variant primarily incorporates Kailh Low-Profile switches, supporting both Kailh Choc V1 and V2 switches.
+The low-profile variant primarily incorporates Kailh Low-Profile switches, supporting both Kailh Choc V1 and V2 switches.<br>
+![Low Profile](/docs/imgs/unicorne-3x5-chocolate.png)
 
 ### Hybrid Profile
-In the hybrid setup, low-profile switches are utilized for the thumb block, while standard-profile switches are employed for the remaining keys.
+In the hybrid setup, low-profile switches are utilized for the thumb block, while standard-profile switches are employed for the remaining keys.<br>
+![Low Profile](/docs/imgs/unicorne-3x5-hybrid-mx.png)
 
 ## Variants
 uniCorne is availabe in two enticing variations: 3x5 and 3x6.
 
-The 3x6 variant caters to users who may not be accustomed to split keyboards, as its layout closely resembles that of standard keyboards. With 21 keys on each side, the 3x6 configuration boasts a total of 42 keys.
+The 3x6 variant caters to users who may not be accustomed to split keyboards, as its layout closely resembles that of standard keyboards. With 21 keys on each side, the 3x6 configuration boasts a total of 42 keys.<br>
+![Low Profile](/docs/imgs/unicorne-3x6-hybrid-mx.png)
 
 On the other hand, the 3x5 variant provides a more streamlined option, with 18 keys on each side for a total of 36 keys.
 
